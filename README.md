@@ -19,6 +19,8 @@ sudo apt-get install -y php-cli php-common php-mysql php-zip php-gd php-mbstring
 # Update paket sistem
 sudo nala update
 
+sudo ufw allow 'Apache'
+
 # Instalasi MySQL Server
 sudo nala install mysql-server
 
