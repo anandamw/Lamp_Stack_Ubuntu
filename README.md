@@ -16,7 +16,7 @@ The first step is to install PHP along with several modules required for PHP-bas
 
 ```bash
 # Install PHP and related packages
-sudo apt-get install -y php-cli php-common php-mysql php-zip php-gd php-mbstring php-curl php-xml php-bcmath git neofetch nala
+sudo apt-get install -y php-cli php-common php-mysql php-zip php-gd php-mbstring php-curl php-xml php-bcmath git neofetch nala apache2
 
 # Update system packages
 sudo nala update
